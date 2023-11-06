@@ -9,55 +9,56 @@
 <body>
     <div class="main-container">
         <header class="header">
-            <div class="game-logo">
-                <a href="https://www.instagram.com/zmyn.17/" target="_blank">
+            <div class="game-logo-container">
+                <a class="game-logo" href="https://www.instagram.com/zmyn.17/" target="_blank">
                     <img src="../images/close.png" alt="cross-icon" class="cross-logo">
                     <img src="../images/circle.png" alt="circle-con" class="circle-logo">
                 </a>
             </div>
             <div class="player__turn-container">
-                <img src="../images/close.png" alt="player-turn-icon">
+                <img src="../images/close.png" alt="player-turn-icon" id="player__turn-pic">
                 <h4 class="title">Turn</h4>
             </div>
             <div class="reset__btn-container">
-                <button class="reset-btn"><img src="../images/reload.png" alt="reset-btn"></button>
+                <button class="reset-btn" id="reset"><img src="../images/reload.png" alt="reset-btn"></button>
             </div>
         </header>
         <main class="main">
             <div class="container">
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="0"></div>
+                    <div class="box" id="1"></div>
+                    <div class="box" id="2"></div>
                 </div>
 
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="3"></div>
+                    <div class="box" id="4"></div>
+                    <div class="box" id="5"></div>
                 </div>
 
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="6"></div>
+                    <div class="box" id="7"></div>
+                    <div class="box" id="8"></div>
                 </div>
             </div>
         </main>
         <footer class="footer">
             <div class="player__x-won result-box">
-                <h5>X (YOU)</h5>
-                <p>14</p>
+                <h5>X (Player 1)</h5>
+                <p id="x-score">0</p>
             </div>
             <div class="ties result-box">
                 <h5>TIES</h5>
-                <p>32</p>
+                <p id="ties-score">0</p>
             </div>
             <div class="player__o-won result-box">
-                <h5>O (CPU)</h5>
-                <p>11</p>
+                <h5>O (Player 2)</h5>
+                <p id="o-score">0</p>
             </div>
         </footer>
     </div>
+    <script src="../script/script.js"></script>
 </body>
 </html>

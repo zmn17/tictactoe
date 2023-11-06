@@ -11,6 +11,7 @@ This is a simple web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScrip
 - The game can be easily reset to start a new round.
 
 ## Live Preview
+[Live Preview](https://zee-tictactoe-game.netlify.app/)
 
 ## Screenshots
 

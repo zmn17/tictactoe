@@ -14,8 +14,8 @@ This is a simple web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScrip
 [Live Preview](https://zee-tictactoe-game.netlify.app/)
 
 ## Screenshots
-
-Include some screenshots or images of your game in action here to make your README more visually appealing.
+<img width="846" alt="Screenshot 2023-11-06 at 11 57 28 pm" src="https://github.com/zmn17/tictactoe/assets/101510148/646426f9-0bbd-4324-b6f5-969c1bbddd3d">
+<img width="846" alt="Screenshot 2023-11-06 at 11 57 40 pm" src="https://github.com/zmn17/tictactoe/assets/101510148/ba91046f-226e-4ddb-b01a-da599a790697">
 
 ## Contributing
 
